@@ -1,0 +1,43 @@
+/* COLOR SCHEME TEST "Theme - Cobalt2/cobalt2.tmTheme" "CSS" */
+
+@media all and (max-width: 470px) {
+/* ^ fg=#ff9d00 fs= */
+/*     ^^^ fg=#eb939a fs= */
+/*         ^^^ fg=#ff9d00 fs= */
+/*              ^^^^^^^^^ fg=#80ffbb fs= */
+/*                       ^ fg=#ffc600 fs= */
+/*                         ^^^ fg=#ff628c fs= */
+/*                            ^^ fg=#ff9d00 fs= */
+    ol.videos li:nth-child(1n) {
+/*  ^^ fg=#9effff fs= */
+/*    ^ fg=#e1efff fs= */
+/*            ^^ fg=#9effff fs= */
+/*              ^ fg=#e1efff fs= */
+/*               ^^^^^^^^^ fg=#ffc600 fs= */
+/*                        ^ fg=#e1efff fs= */
+/*                         ^ fg=#ff628c fs= */
+/*                          ^ fg=#ff9d00 fs= */
+/*                           ^ fg=#e1efff fs= */
+        text-align: left;
+/*      ^ fg=#9df39f fs= */
+/*                ^ fg=#ffc600 fs= */
+/*                  ^ fg=#f6f080 fs= */
+/*                      ^ fg=#e1efff fs= */
+        margin-bottom: 0;
+        margin-left: 0;
+        width: 100%;
+/*             ^^^ fg=#edf080 fs= */
+/*                ^ fg=#ff9d00 fs= */
+    }
+    ol.videos li:nth-child(11n) p {
+/*                              ^ fg=#9effff fs= */
+        font-size: 15px;
+/*                 ^^ fg=#edf080 fs= */
+/*                   ^^ fg=#ff9d00 fs= */
+    }
+    ol.videos li:nth-child(1n) img {
+/*                              ^ fg=#9effff fs= */
+        display: none;
+/*               ^ fg=#f6f080 fs= */
+    }
+}
