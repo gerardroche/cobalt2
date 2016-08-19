@@ -123,7 +123,7 @@
       <key>name</key>
       <string>Comment</string>
       <key>scope</key>
-      <string>comment</string>
+      <string>comment, comment.block.documentation.phpdoc.php storage.modifier.php</string>
       <key>settings</key>
       <dict>
         <key>fontStyle</key>
